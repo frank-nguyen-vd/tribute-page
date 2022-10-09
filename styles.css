@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  background-color: #eee;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  padding: 50px 0;
+}
+
+figure {
+  background-color: #fff;
+  padding: 2%;
+  line-height: 1.5;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin: 0 1%;
+}
+
+figure > img {
+  width: 70%;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 20px 0 0 0;
+}
+
+#tribute-info {
+  margin: 0 auto;
+  width: 40%;
+}
+
+#tribute-info > ul {
+  text-align: left;
+  line-height: 2.5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+blockquote {
+  text-align: left;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+#tribute-link {
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
